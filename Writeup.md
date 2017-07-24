@@ -129,7 +129,7 @@ First Image
 
 | Probability          	|     Prediction	        			               		| 
 |:---------------------:|:---------------------------------------------:| 
-| .55         			| Right-of-way at the next intersection   									| 
+| .01         			| Right-of-way at the next intersection   									| 
 | .17     				|Dangerous curve to the left 										|
 | .16					| Beware of ice/snow											|
 | .11	      			| Slippery Road				 				|
