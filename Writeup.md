@@ -119,7 +119,7 @@ Here are the results of the prediction:
 | Priority Road			                       | Roundabout Mandatory                    						|
 
 
-The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. This compares infavorably to the accuracy on the test set of 93.5%
+The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 60%. This compares infavorably to the accuracy on the test set of 92.1%
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -129,50 +129,50 @@ First Image
 
 | Probability          	|     Prediction	        			               		| 
 |:---------------------:|:---------------------------------------------:| 
-| .01         			| Right-of-way at the next intersection   									| 
-| .17     				|Dangerous curve to the left 										|
-| .16					| Beware of ice/snow											|
-| .11	      			| Slippery Road				 				|
-| .09				    | Priority Road     							|
+| .10         			| Right-of-way at the next intersection   									| 
+| .0.0001     				|General Caution 										|
+| .000002					| Double Curve											|
+| .00000002	      			| End of speed limit(80km/h)				 				|
+| .000000001				    |  Dangerous curve to the left							|
 
 
 Second Image
 
 | Probability          	|     Prediction	        				                  	| 
 |:---------------------:|:---------------------------------------------:| 
-| .48         			| General Caution   									| 
-| .27     				|Right-of-way at the next intersection 										|
-| .22					| Traffic Signals											|
-| .18	      			| Pedestrians			 				|
-| .14				    | Roundabout mandatory     							|
+| .10       			| General Caution   									| 
+| .0000001     				|Go straight or left 										|
+| .00000005					| Right-of-way at the next intersection											|
+| .00000004	      			| Traffic Signals			 				|
+| .0000000002				    | Dangerous curve to the right     							|
 
 Third Image
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .15         			| Speed limit (120km/h)   									| 
-| .12     				|Speed limit (60km/h)									|
-| .11					| Wild animals crossing										|
-| .08	      			| Bumpy Road 				|
-| .05				    | Beware of ice/snow   							|
+| .10         			| Bumpy Road   									| 
+| .000004     				|Wild animals crossing									|
+| .000000004					| No passing for vehicles over 3.5 metric tons										|
+| .000000002	      			| Speed limit (60km/h) 				|
+| .000000001				    | Priority road   							|
 
 Fourth Image
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .20         			| Yield 									| 
-| .13     				|Turn left ahead								|
-| .13					| No passing											|
-| .09	      			| Ahead only				 				|
-| .05				    | Go straight or right    							|
+| .09         			| No passing 									| 
+| .01     				|No passing for vehicles over 3.5 metric tons								|
+| .0001					| Priority road											|
+| .00001	      			| 	Ahead only			 				|
+| .000006				    | Go straight or right    							|
 
 Fifth Image
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .25         			| Roundabout mandatory   									| 
-| .12     				| Keep right									|
-| .07					| End of speed limit (80km/h)											|
-| .04	      			| Go striaght or left				 				|
-| .01				    | Right-of-way at the next intersection    							|
+| .099         			| Roundabout mandatory   									| 
+| .007     				| Keep right									|
+| .000006					| Wild animals crossing										|
+| .000005	      			| Go striaght or left				 				|
+| .0000007				    | General Caution    							|
 
